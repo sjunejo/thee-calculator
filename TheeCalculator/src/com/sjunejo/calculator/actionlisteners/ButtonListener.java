@@ -17,6 +17,8 @@ public class ButtonListener implements ActionListener {
 		String selectedButton = pressedButton.getText();
 		MainWindow mainWindow = (MainWindow) pressedButton.getTopLevelAncestor();
 
+		// This is the most pointless change ever
+		
 		Datastore dataStore = mainWindow.getDataStore();
 		
 		// we could try casting to an int for 0 - 9..
