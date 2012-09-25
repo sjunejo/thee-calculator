@@ -20,6 +20,8 @@ public class BasicButtonPanel extends JPanel {
 				"1", "2", "3", "-", "=",
 				"0", ".", "+"};
 		
+		
+		// add action listener to each button
 		for (String str: buttonArray){
 			JButton btn = new JButton(str);
 			btn.addActionListener(new ButtonListener());
